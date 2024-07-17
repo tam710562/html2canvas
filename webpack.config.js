@@ -14,9 +14,13 @@ const commonConfig = {
     entry: './src/index.ts',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        library: 'html2canvas',
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        library: {
+            name: 'html2canvas',
+            type: 'umd',
+            umdNamedDefine: true,
+            export: 'default'
+        },
+        globalObject: 'this'
     },
     resolve: {
         extensions: ['.ts', '.js', '.json']
