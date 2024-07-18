@@ -2,17 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.6.3](https://github.com/html2canvas/html2canvas/compare/v1.6.2...v1.6.3) (2024-07-1815)
+## [1.6.3](https://github.com/html2canvas/html2canvas/compare/v1.6.2...v1.6.3) (2024-07-18)
 
 ### fix
 
 -   Fix build for browsers #7 (thanks @jamie-zaharopoulos-fh)
 -   Fix the issue of TextNode content being overlooke… #8 (thanks @xweiba)
--   Fixed an issue with characters moving up in non-Firefox #9  (thanks @xweiba)
+-   Fixed an issue with characters moving up in non-Firefox #9 (thanks @xweiba)
 -   Correcting the issue of textDecorationLine displaying offsets on high-resolution devices by utilizing element heights. #10 (thanks @xweiba)
 
-
 ## [1.6.2](https://github.com/html2canvas/html2canvas/compare/v1.6.1...v1.6.2) (2024-06-15)
+
 ### fix
 
 -   Fix underline ([b2911f3](https://github.com/html2canvas/html2canvas/commit/b2911f3f6cf4d0991716a07ff61d6d7fbfdf80df))
