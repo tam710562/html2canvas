@@ -6,7 +6,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### fix
 
--   Apply some updates from my personal fork to the new baseline. #3 (thanks @jamie-zaharopoulos-fh)
 -   Fix build for browsers #7 (thanks @jamie-zaharopoulos-fh)
 -   Fix the issue of TextNode content being overlooke… #8 (thanks @xweiba)
 -   Fixed an issue with characters moving up in non-Firefox #9  (thanks @xweiba)
